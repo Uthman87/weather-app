@@ -1,0 +1,65 @@
+body {
+    background: 1#f1f1f1f1;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+header {
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 0;
+}
+
+header li {
+    display: inline;
+    padding-left: 45px; 
+}
+
+header li a {
+    color: #333;
+    text-decoration: none;
+    padding: 13px;
+}
+
+header li a:hover{
+    color: royalblue; 
+}
+ 
+/* header ul #about a {
+    color: #fff;
+    background-color: royalblue;
+    border-radius: 30px;
+} */
+
+header ul #contact a {
+    color: #fff;
+    background-color: royalblue;
+    border-radius: 30px;
+    float: right;
+    position: relative;
+    top: -15px;
+}
+
+header ul #contact a:hover {
+  background-color: goldenrod;  
+  transition: .3s ease;
+}
+
+.active {
+    color: royalblue;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: rgb(185, 151, 151);
+    padding: 8px;
+}
